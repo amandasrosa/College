@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2CD9C01F87A172006EA78A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9BF1F87A172006EA78A /* Employee.swift */; };
+		9B2CD9CC1F87A2DD006EA78A /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C11F87A2DD006EA78A /* Classe.swift */; };
+		9B2CD9CD1F87A2DD006EA78A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C21F87A2DD006EA78A /* Country.swift */; };
+		9B2CD9CE1F87A2DD006EA78A /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C31F87A2DD006EA78A /* Course.swift */; };
+		9B2CD9CF1F87A2DD006EA78A /* DepartmentEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C41F87A2DD006EA78A /* DepartmentEmployee.swift */; };
+		9B2CD9D01F87A2DD006EA78A /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C51F87A2DD006EA78A /* Function.swift */; };
+		9B2CD9D11F87A2DD006EA78A /* GradeAux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C61F87A2DD006EA78A /* GradeAux.swift */; };
+		9B2CD9D21F87A2DD006EA78A /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C71F87A2DD006EA78A /* Program.swift */; };
+		9B2CD9D31F87A2DD006EA78A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C81F87A2DD006EA78A /* Schedule.swift */; };
+		9B2CD9D41F87A2DD006EA78A /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9C91F87A2DD006EA78A /* Status.swift */; };
+		9B2CD9D51F87A2DD006EA78A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9CA1F87A2DD006EA78A /* Student.swift */; };
+		9B2CD9D61F87A2DD006EA78A /* StudentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CD9CB1F87A2DD006EA78A /* StudentClass.swift */; };
+		9BAE84001F879EDC0056F087 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE83FF1F879EDC0056F087 /* main.swift */; };
+		9BAE84071F879F1D0056F087 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE84061F879F1D0056F087 /* Department.swift */; };
+		9BAE84091F87C5340056F087 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE84081F87C5340056F087 /* College.swift */; };
+		9BAE840B1F87CF4F0056F087 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE840A1F87CF4F0056F087 /* Util.swift */; };
+		9BC27AEA1F8E643B002AF84C /* CollegeReports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC27AE91F8E643B002AF84C /* CollegeReports.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BAE83FA1F879EDC0056F087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B2CD9BF1F87A172006EA78A /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9B2CD9C11F87A2DD006EA78A /* Classe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
+		9B2CD9C21F87A2DD006EA78A /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9B2CD9C31F87A2DD006EA78A /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		9B2CD9C41F87A2DD006EA78A /* DepartmentEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentEmployee.swift; sourceTree = "<group>"; };
+		9B2CD9C51F87A2DD006EA78A /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		9B2CD9C61F87A2DD006EA78A /* GradeAux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeAux.swift; sourceTree = "<group>"; };
+		9B2CD9C71F87A2DD006EA78A /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		9B2CD9C81F87A2DD006EA78A /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		9B2CD9C91F87A2DD006EA78A /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		9B2CD9CA1F87A2DD006EA78A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B2CD9CB1F87A2DD006EA78A /* StudentClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClass.swift; sourceTree = "<group>"; };
+		9BAE83FC1F879EDC0056F087 /* College */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = College; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAE83FF1F879EDC0056F087 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BAE84061F879F1D0056F087 /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		9BAE84081F87C5340056F087 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		9BAE840A1F87CF4F0056F087 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		9BC27AE91F8E643B002AF84C /* CollegeReports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeReports.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAE83F91F879EDC0056F087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAE83F31F879EDC0056F087 = {
+			isa = PBXGroup;
+			children = (
+				9BAE83FE1F879EDC0056F087 /* College */,
+				9BAE83FD1F879EDC0056F087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAE83FD1F879EDC0056F087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAE83FC1F879EDC0056F087 /* College */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAE83FE1F879EDC0056F087 /* College */ = {
+			isa = PBXGroup;
+			children = (
+				9BAE83FF1F879EDC0056F087 /* main.swift */,
+				9BAE84061F879F1D0056F087 /* Department.swift */,
+				9B2CD9C11F87A2DD006EA78A /* Classe.swift */,
+				9B2CD9C21F87A2DD006EA78A /* Country.swift */,
+				9B2CD9C31F87A2DD006EA78A /* Course.swift */,
+				9B2CD9C41F87A2DD006EA78A /* DepartmentEmployee.swift */,
+				9B2CD9C51F87A2DD006EA78A /* Function.swift */,
+				9B2CD9C61F87A2DD006EA78A /* GradeAux.swift */,
+				9B2CD9C71F87A2DD006EA78A /* Program.swift */,
+				9B2CD9C81F87A2DD006EA78A /* Schedule.swift */,
+				9B2CD9C91F87A2DD006EA78A /* Status.swift */,
+				9B2CD9CA1F87A2DD006EA78A /* Student.swift */,
+				9B2CD9CB1F87A2DD006EA78A /* StudentClass.swift */,
+				9B2CD9BF1F87A172006EA78A /* Employee.swift */,
+				9BAE84081F87C5340056F087 /* College.swift */,
+				9BAE840A1F87CF4F0056F087 /* Util.swift */,
+				9BC27AE91F8E643B002AF84C /* CollegeReports.swift */,
+			);
+			path = College;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAE83FB1F879EDC0056F087 /* College */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAE84031F879EDC0056F087 /* Build configuration list for PBXNativeTarget "College" */;
+			buildPhases = (
+				9BAE83F81F879EDC0056F087 /* Sources */,
+				9BAE83F91F879EDC0056F087 /* Frameworks */,
+				9BAE83FA1F879EDC0056F087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = College;
+			productName = College;
+			productReference = 9BAE83FC1F879EDC0056F087 /* College */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAE83F41F879EDC0056F087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BAE83FB1F879EDC0056F087 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BAE83F71F879EDC0056F087 /* Build configuration list for PBXProject "College" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BAE83F31F879EDC0056F087;
+			productRefGroup = 9BAE83FD1F879EDC0056F087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAE83FB1F879EDC0056F087 /* College */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAE83F81F879EDC0056F087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2CD9D21F87A2DD006EA78A /* Program.swift in Sources */,
+				9B2CD9CE1F87A2DD006EA78A /* Course.swift in Sources */,
+				9B2CD9D31F87A2DD006EA78A /* Schedule.swift in Sources */,
+				9BAE840B1F87CF4F0056F087 /* Util.swift in Sources */,
+				9B2CD9CC1F87A2DD006EA78A /* Classe.swift in Sources */,
+				9B2CD9D61F87A2DD006EA78A /* StudentClass.swift in Sources */,
+				9BC27AEA1F8E643B002AF84C /* CollegeReports.swift in Sources */,
+				9B2CD9D11F87A2DD006EA78A /* GradeAux.swift in Sources */,
+				9BAE84001F879EDC0056F087 /* main.swift in Sources */,
+				9B2CD9C01F87A172006EA78A /* Employee.swift in Sources */,
+				9B2CD9D51F87A2DD006EA78A /* Student.swift in Sources */,
+				9B2CD9CD1F87A2DD006EA78A /* Country.swift in Sources */,
+				9BAE84071F879F1D0056F087 /* Department.swift in Sources */,
+				9B2CD9CF1F87A2DD006EA78A /* DepartmentEmployee.swift in Sources */,
+				9B2CD9D01F87A2DD006EA78A /* Function.swift in Sources */,
+				9B2CD9D41F87A2DD006EA78A /* Status.swift in Sources */,
+				9BAE84091F87C5340056F087 /* College.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BAE84011F879EDC0056F087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BAE84021F879EDC0056F087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BAE84041F879EDC0056F087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BAE84051F879EDC0056F087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAE83F71F879EDC0056F087 /* Build configuration list for PBXProject "College" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAE84011F879EDC0056F087 /* Debug */,
+				9BAE84021F879EDC0056F087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAE84031F879EDC0056F087 /* Build configuration list for PBXNativeTarget "College" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAE84041F879EDC0056F087 /* Debug */,
+				9BAE84051F879EDC0056F087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAE83F41F879EDC0056F087 /* Project object */;
+}
